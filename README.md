@@ -1,4 +1,12 @@
-# dfw-housing-market-analysis
+# DFW Housing Market Analysis
+
+**End-to-End Business Intelligence Portfolio Project**
+
+![SQL](https://img.shields.io/badge/SQL-Google%20BigQuery-blue)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
+![Excel](https://img.shields.io/badge/Excel-Analysis-green)
+![Status](https://img.shields.io/badge/Status-Complete-success)
+
 End-to-end business intelligence project analyzing 10 years of Dallas–Fort Worth housing market data using SQL, Google BigQuery, Tableau, and Excel.
 
 Business Question

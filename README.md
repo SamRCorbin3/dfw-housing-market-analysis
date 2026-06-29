@@ -7,40 +7,10 @@
 ![Excel](https://img.shields.io/badge/Excel-Analysis-green)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
-End-to-end business intelligence project analyzing 10 years of Dallas–Fort Worth housing market data using SQL, Google BigQuery, Tableau, and Excel.
-
-Business Question
-        │
-        ▼
- Zillow Housing Data
-        │
-        ▼
- Google BigQuery
-        │
-        ▼
- SQL Analysis
-        │
-        ▼
- Analytical Datasets
-        │
-        ▼
- Tableau Dashboards
-        │
-        ▼
- Business Insights
-        │
-        ▼
- Executive Documentation
-
-
 # DFW Housing Market Analysis
-
-
-## Interactive Business Intelligence Dashboard Portfolio
-
+End-to-end business intelligence project analyzing 10 years of Dallas–Fort Worth housing market data using SQL, Google BigQuery, Tableau, and Excel
 
 ## Project Overview
-
 This project analyzes the Dallas–Fort Worth (DFW) housing market using Zillow Home Value Index (ZHVI) data to identify current market conditions, long-term appreciation trends, and cities offering the strongest buying opportunities.
 
 The analysis combines SQL, BigQuery, Tableau, and Excel to transform raw housing data into interactive dashboards that help buyers, investors, and real estate professionals make data-driven decisions.

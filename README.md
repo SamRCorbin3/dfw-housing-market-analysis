@@ -86,7 +86,7 @@ The dataset contains housing information for approximately 180 cities across the
 
 
 ### Dashboard 1 — Current Market Snapshot
-![Dashboard 1](images/Dashboard1_CurrentMarket.png)
+![Dashboard 1](images/dashboard1_CurrentMarket.png)
 
 Provides a high-level overview of the current DFW housing market, including:
 
@@ -101,7 +101,7 @@ Provides a high-level overview of the current DFW housing market, including:
 ---
 
 ### Dashboard 2 — Home Value Appreciation
-![Dashboard 2](images/Dashboard2_Appreciation.png)
+![Dashboard 2](images/dashboard2_Appreciation.png)
 
 Analyzes historical appreciation over the past decade.
 
@@ -119,7 +119,7 @@ Features include:
 ---
 
 ### Dashboard 3 — Buyer Opportunity Index
-![Dashboard 3](images/Dashboard3_BuyerOpportunity.png)
+![Dashboard 3](images/dashboard3_BuyerOpportunity.png)
 
 Identifies cities that offer the strongest combination of affordability and appreciation.
 

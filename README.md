@@ -7,9 +7,6 @@
 ![Excel](https://img.shields.io/badge/Excel-Analysis-green)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
-# DFW Housing Market Analysis
-End-to-end business intelligence project analyzing 10 years of Dallas–Fort Worth housing market data using SQL, Google BigQuery, Tableau, and Excel
-
 ## Project Overview
 This project analyzes the Dallas–Fort Worth (DFW) housing market using Zillow Home Value Index (ZHVI) data to identify current market conditions, long-term appreciation trends, and cities offering the strongest buying opportunities.
 

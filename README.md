@@ -58,10 +58,21 @@ The objectives of this project were to:
 | **Zillow Home Value Index (ZHVI)** | Housing market dataset                                          |
 
 
-## Dataset
+## Datasets
+
+The project uses five analytical datasets generated through SQL queries in Google BigQuery. Each dataset supports a specific stage of the analysis and serves as the foundation for the Tableau dashboards.
+
+| Dataset                         | Description                                                                                                                                                                                                                                                                               |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **latest_home_values.csv**      | Current Zillow Home Value Index (ZHVI) estimates for each Dallas–Fort Worth city, including county information. Used to analyze current market conditions, calculate KPIs, and identify the highest- and lowest-priced housing markets.                                                   |
+| **city_appreciation.csv**       | Ten-year home value appreciation by city (May 2016–May 2026). Used to evaluate historical growth, identify top-performing markets, and compare appreciation trends across the region.                                                                                                     |
+| **county_appreciation.csv**     | Average home value appreciation aggregated at the county level. Used to compare long-term market performance between counties and support county-level visualizations.                                                                                                                    |
+| **buyer_opportunity_index.csv** | Composite dataset combining current home values, appreciation percentages, affordability rankings, and buyer opportunity scores to identify cities offering the strongest balance of value and growth potential.                                                                          |
+| **county_performance.csv**      | Executive-level county performance dataset that combines average home values, appreciation, buyer opportunity scores, ranking metrics, and an overall County Performance Score. Created specifically to support the Executive Market Performance Dashboard and executive decision-making. |
+
+
 
 **Source**
-
 Zillow Home Value Index (ZHVI)
 
 The dataset contains housing information for approximately 180 cities across the Dallas–Fort Worth Metroplex, including:
@@ -74,6 +85,7 @@ The dataset contains housing information for approximately 180 cities across the
 - Buyer Opportunity Score
 - Affordability Rank
 - Appreciation Rank
+- 
 
 
 ## Dashboard Overview
@@ -131,6 +143,22 @@ Features include:
 - Lowest Opportunity Cities
 - Opportunity Bubble Map
 
+---
+
+### Dashboard 4 — Executive Market Performance
+![Dashboard 4](images/dashboard4_ExecutivePerformance.png)
+
+Identifies counties that offer the strongest combination of affordability and appreciation.
+
+Features include:
+
+- County Performance Score
+- Executive KPIs
+- County rankings
+- County performance map
+- Executive insights
+
+---
 
 ## Key Business Insights
 

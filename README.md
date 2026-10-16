@@ -99,6 +99,8 @@ The dataset contains housing information for approximately 180 cities across the
 
 Provides a high-level overview of the current DFW housing market, including:
 
+https://public.tableau.com/views/Dashboard1_CurrentMarket/CurrentMarketSnapshot?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 - Average Home Value
 - Highest Home Value
 - Lowest Home Value
@@ -113,6 +115,8 @@ Provides a high-level overview of the current DFW housing market, including:
 ![Dashboard 2](images/dashboard2_Appreciation.png)
 
 Analyzes historical appreciation over the past decade.
+
+https://public.tableau.com/shared/QZC4F4QQD?:display_count=n&:origin=viz_share_link
 
 Features include:
 
@@ -132,6 +136,8 @@ Features include:
 
 Identifies cities that offer the strongest combination of affordability and appreciation.
 
+https://public.tableau.com/views/Dashboard3_BuyerOpportunity/DFWHomeValueAppreciation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 Features include:
 
 - Highest Opportunity Score
@@ -146,9 +152,11 @@ Features include:
 ---
 
 ### Dashboard 4 — Executive Market Performance
-![Dashboard 4](images/dashboard4_ExecutivePerformance.png)
+![Dashboard 4](images/dashboard4_ExecutiveMarketSummary.png)
 
-Identifies counties that offer the strongest combination of affordability and appreciation.
+An executive-level county comparison combining average home values, 10-year appreciation, buyer opportunity scores, and an overall County Performance Score. Collin County ranks first overall under the composite scoring model, while the leading county differs across the individual metrics.
+
+https://public.tableau.com/views/ExecutiveMarketPerformance/ExecutiveMarketPerformance?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 Features include:
 

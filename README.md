@@ -156,6 +156,15 @@ Features include:
 
 An executive-level county comparison combining average home values, 10-year appreciation, buyer opportunity scores, and an overall County Performance Score. Collin County ranks first overall under the composite scoring model, while the leading county differs across the individual metrics.
 
+Key findings:
+
+- Overall leader: Collin County, with a County Performance Score of 4.3.
+- Highest average home value: Tarrant County, approximately $546,000.
+- Highest 10-year appreciation: Dallas County, approximately 219%.
+- Highest Buyer Opportunity Score: Rockwall County, with a score of 271.0.
+
+Tools: Tableau Public, Google BigQuery, SQL.
+
 https://public.tableau.com/views/ExecutiveMarketPerformance/ExecutiveMarketPerformance?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 Features include:
@@ -165,6 +174,8 @@ Features include:
 - County rankings
 - County performance map
 - Executive insights
+
+Note: The County Performance Score is a composite ranking measure based on three component ranks. A lower score indicates stronger performance under this model. The Buyer Opportunity Score is a model-based comparison, not a guarantee of investment returns.
 
 ---
 

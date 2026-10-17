@@ -85,7 +85,6 @@ The dataset contains housing information for approximately 180 cities across the
 - Buyer Opportunity Score
 - Affordability Rank
 - Appreciation Rank
-- 
 
 
 ## Dashboard Overview
@@ -136,7 +135,7 @@ Features include:
 
 Identifies cities that offer the strongest combination of affordability and appreciation.
 
-https://public.tableau.com/views/Dashboard3_BuyerOpportunity/DFWHomeValueAppreciation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/shared/FCBT9BYG9?:display_count=n&:origin=viz_share_link
 
 Features include:
 

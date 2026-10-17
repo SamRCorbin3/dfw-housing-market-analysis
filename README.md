@@ -184,7 +184,7 @@ Note: The County Performance Score is a composite ranking measure based on three
 ### Current Market
 
 - The average home value across the Dallas–Fort Worth Metroplex is approximately **$321K**.
-- Dallas County currently has the highest average home values among the counties analyzed.
+- Tarrant County currently has the highest average home values among the counties analyzed.
 - More than half of DFW cities have home values above the regional average.
 
 ### Historical Appreciation

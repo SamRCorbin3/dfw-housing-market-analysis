@@ -1,0 +1,177 @@
+city,county,observation_date,current_home_value
+West Tawakoni,Hunt County,2026-05-31,181743.0
+Sansom Park,Tarrant County,2026-05-31,195534.0
+Cockrell Hill,Dallas County,2026-05-31,209494.0
+Commerce,Hunt County,2026-05-31,213160.0
+Everman,Tarrant County,2026-05-31,216376.0
+River Oaks,Tarrant County,2026-05-31,216511.0
+Blue Mound,Tarrant County,2026-05-31,217796.0
+White Settlement,Tarrant County,2026-05-31,217858.0
+Forest Hill,Tarrant County,2026-05-31,221541.0
+Balch Springs,Dallas County,2026-05-31,221676.0
+Wilmer,Dallas County,2026-05-31,224424.0
+Bridgeport,Wise County,2026-05-31,226156.0
+Lake Worth,Tarrant County,2026-05-31,231586.0
+Haltom City,Tarrant County,2026-05-31,238579.0
+Greenville,Hunt County,2026-05-31,241236.0
+Hutchins,Dallas County,2026-05-31,248669.0
+Milford,Ellis County,2026-05-31,249481.0
+Keene,Johnson County,2026-05-31,254707.0
+Wills Point,Van Zandt County,2026-05-31,255605.0
+Mesquite,Dallas County,2026-05-31,259181.0
+Italy,Ellis County,2026-05-31,263909.0
+Ennis,Ellis County,2026-05-31,264277.0
+Kemp,Kaufman County,2026-05-31,267232.0
+Crandall,Kaufman County,2026-05-31,267423.0
+Seagoville,Dallas County,2026-05-31,269658.0
+Lancaster,Dallas County,2026-05-31,270707.0
+Cleburne,Johnson County,2026-05-31,271267.0
+Watauga,Tarrant County,2026-05-31,272321.0
+Wolfe City,Hunt County,2026-05-31,273460.0
+Duncanville,Dallas County,2026-05-31,273687.0
+Mabank,Kaufman County,2026-05-31,273725.0
+Richland Hills,Tarrant County,2026-05-31,278805.0
+Quinlan,Hunt County,2026-05-31,280319.0
+Josephine,Collin County,2026-05-31,280330.0
+Terrell,Kaufman County,2026-05-31,280659.0
+Garland,Dallas County,2026-05-31,282137.0
+Kaufman,Kaufman County,2026-05-31,288279.0
+Lone Oak,Hunt County,2026-05-31,290377.0
+Runaway Bay,Wise County,2026-05-31,290493.0
+Princeton,Collin County,2026-05-31,290908.0
+Ferris,Ellis County,2026-05-31,293191.0
+Fort Worth,Tarrant County,2026-05-31,294999.0
+Saginaw,Tarrant County,2026-05-31,296865.0
+Edgecliff Village,Tarrant County,2026-05-31,300488.0
+Alvarado,Johnson County,2026-05-31,302345.0
+Newark,Wise County,2026-05-31,304242.0
+Dallas,Dallas County,2026-05-31,304527.0
+Arlington,Tarrant County,2026-05-31,306955.0
+Forney,Kaufman County,2026-05-31,308522.0
+Ponder,Denton County,2026-05-31,311442.0
+Cedar Hill,Dallas County,2026-05-31,312568.0
+Grand Prairie,Dallas County,2026-05-31,313244.0
+Crowley,Tarrant County,2026-05-31,313429.0
+Royse City,Rockwall County,2026-05-31,313673.0
+Benbrook,Tarrant County,2026-05-31,313856.0
+Caddo Mills,Hunt County,2026-05-31,320398.0
+Desoto,Dallas County,2026-05-31,320625.0
+Palmer,Ellis County,2026-05-31,320827.0
+Oak Grove,Kaufman County,2026-05-31,321291.0
+Pilot Point,Denton County,2026-05-31,322513.0
+Venus,Johnson County,2026-05-31,324286.0
+Glenn Heights,Dallas County,2026-05-31,328108.0
+Hurst,Tarrant County,2026-05-31,330712.0
+Cross Roads,Denton County,2026-05-31,331346.0
+Rio Vista,Johnson County,2026-05-31,332323.0
+Krum,Denton County,2026-05-31,332454.0
+Azle,Parker County,2026-05-31,332963.0
+Farmersville,Collin County,2026-05-31,333616.0
+Scurry,Kaufman County,2026-05-31,333924.0
+Burleson,Johnson County,2026-05-31,336686.0
+Irving,Dallas County,2026-05-31,337337.0
+Westworth Village,Tarrant County,2026-05-31,338383.0
+Lake Dallas,Denton County,2026-05-31,340653.0
+Anna,Collin County,2026-05-31,344602.0
+Aubrey,Denton County,2026-05-31,344719.0
+Red Oak,Ellis County,2026-05-31,344895.0
+Pantego,Tarrant County,2026-05-31,345582.0
+Celeste,Hunt County,2026-05-31,346105.0
+Denton,Denton County,2026-05-31,347056.0
+Lavon,Collin County,2026-05-31,349341.0
+Euless,Tarrant County,2026-05-31,351802.0
+Boyd,Wise County,2026-05-31,351826.0
+Joshua,Johnson County,2026-05-31,353555.0
+Sanger,Denton County,2026-05-31,354207.0
+Chico,Wise County,2026-05-31,357045.0
+Campbell,Hunt County,2026-05-31,357712.0
+Fate,Rockwall County,2026-05-31,358894.0
+Alvord,Wise County,2026-05-31,359766.0
+North Richland Hills,Tarrant County,2026-05-31,362457.0
+Rhome,Wise County,2026-05-31,363995.0
+Rowlett,Dallas County,2026-05-31,365665.0
+Justin,Denton County,2026-05-31,365765.0
+Bedford,Tarrant County,2026-05-31,368601.0
+Waxahachie,Ellis County,2026-05-31,369427.0
+Farmers Branch,Dallas County,2026-05-31,371721.0
+Lakeside,Tarrant County,2026-05-31,371819.0
+Maypearl,Ellis County,2026-05-31,375938.0
+Lowry Crossing,Collin County,2026-05-31,379505.0
+Kennedale,Tarrant County,2026-05-31,381021.0
+Reno,Parker County,2026-05-31,383186.0
+Lewisville,Denton County,2026-05-31,385564.0
+Haslet,Tarrant County,2026-05-31,385916.0
+Oak Ridge,Kaufman County,2026-05-31,386112.0
+Springtown,Parker County,2026-05-31,389330.0
+Krugerville,Denton County,2026-05-31,390442.0
+Carrollton,Dallas County,2026-05-31,395426.0
+Little Elm,Denton County,2026-05-31,395839.0
+Weatherford,Parker County,2026-05-31,396100.0
+The Colony,Denton County,2026-05-31,396753.0
+Grandview,Johnson County,2026-05-31,399209.0
+Briaroaks,Johnson County,2026-05-31,399345.0
+Nevada,Collin County,2026-05-31,400676.0
+Combine,Kaufman County,2026-05-31,403960.0
+Corinth,Denton County,2026-05-31,407744.0
+Willow Park,Parker County,2026-05-31,418825.0
+Wylie,Collin County,2026-05-31,419863.0
+Millsap,Parker County,2026-05-31,421328.0
+Roanoke,Denton County,2026-05-31,422816.0
+Cresson,Parker County,2026-05-31,426564.0
+Melissa,Collin County,2026-05-31,427440.0
+Blue Ridge,Collin County,2026-05-31,428387.0
+Sachse,Dallas County,2026-05-31,429749.0
+Cross Timber,Johnson County,2026-05-31,431532.0
+Post Oak Bend City,Kaufman County,2026-05-31,433364.0
+Richardson,Dallas County,2026-05-31,434275.0
+Godley,Johnson County,2026-05-31,434814.0
+New Hope,Collin County,2026-05-31,434936.0
+Decatur,Wise County,2026-05-31,435396.0
+Mansfield,Tarrant County,2026-05-31,439945.0
+Poolville,Parker County,2026-05-31,447659.0
+Oak Leaf,Ellis County,2026-05-31,449367.0
+Midlothian,Ellis County,2026-05-31,450546.0
+Paradise,Wise County,2026-05-31,454486.0
+Sunset,Montague County,2026-05-31,459046.0
+Rockwall,Rockwall County,2026-05-31,474583.0
+McKinney,Collin County,2026-05-31,475237.0
+Hickory Creek,Denton County,2026-05-31,489984.0
+Allen,Collin County,2026-05-31,490939.0
+Northlake,Denton County,2026-05-31,492019.0
+Aurora,Wise County,2026-05-31,492357.0
+Ovilla,Ellis County,2026-05-31,496208.0
+Plano,Collin County,2026-05-31,497882.0
+Addison,Dallas County,2026-05-31,502698.0
+Celina,Collin County,2026-05-31,522840.0
+Annetta,Parker County,2026-05-31,529080.0
+Aledo,Parker County,2026-05-31,540331.0
+Hudson Oaks,Parker County,2026-05-31,541131.0
+Grapevine,Tarrant County,2026-05-31,543036.0
+Dalworthington Gardens,Tarrant County,2026-05-31,547877.0
+Saint Paul,Collin County,2026-05-31,575534.0
+Highland Village,Denton County,2026-05-31,577901.0
+Murphy,Collin County,2026-05-31,580642.0
+Argyle,Denton County,2026-05-31,596544.0
+Flower Mound,Denton County,2026-05-31,597833.0
+Coppell,Dallas County,2026-05-31,605673.0
+Sunnyvale,Dallas County,2026-05-31,629105.0
+Keller,Tarrant County,2026-05-31,644441.0
+Frisco,Collin County,2026-05-31,645760.0
+Hebron,Denton County,2026-05-31,657829.0
+Annetta South,Parker County,2026-05-31,666693.0
+Trophy Club,Denton County,2026-05-31,685420.0
+Heath,Rockwall County,2026-05-31,706363.0
+Pecan Acres,Tarrant County,2026-05-31,731160.0
+Annetta North,Parker County,2026-05-31,741128.0
+Prosper,Collin County,2026-05-31,769798.0
+Double Oak,Denton County,2026-05-31,836036.0
+Colleyville,Tarrant County,2026-05-31,901514.0
+Copper Canyon,Denton County,2026-05-31,1027154.0
+Lucas,Collin County,2026-05-31,1055158.0
+Parker,Collin County,2026-05-31,1095200.0
+Southlake,Tarrant County,2026-05-31,1295922.0
+Bartonville,Denton County,2026-05-31,1397833.0
+University Park,Dallas County,2026-05-31,2411473.0
+Westover Hills,Tarrant County,2026-05-31,2622091.0
+Highland Park,Dallas County,2026-05-31,2926287.0
+Westlake,Tarrant County,2026-05-31,3177534.0

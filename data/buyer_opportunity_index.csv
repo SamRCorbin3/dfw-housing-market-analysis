@@ -1,0 +1,168 @@
+Buyer_Opportunity_Rank,City,County,Current_Home_Value,Appreciation_Percent,Affordability_Rank,Appreciation_Rank,Buyer_Opportunity_Score
+1,Sansom Park,Tarrant County,195534.0,135.43,2,6,8
+2,West Tawakoni,Hunt County,181743.0,132.29,1,8,9
+3,River Oaks,Tarrant County,216511.0,138.91,6,4,10
+3,Everman,Tarrant County,216376.0,137.58,5,5,10
+4,Forest Hill,Tarrant County,221541.0,151.27,9,3,12
+4,Wilmer,Dallas County,224424.0,184.74,11,1,12
+5,Commerce,Hunt County,213160.0,127.27,4,10,14
+6,Hutchins,Dallas County,248669.0,165.29,16,2,18
+7,White Settlement,Tarrant County,217858.0,125.04,8,11,19
+8,Cockrell Hill,Dallas County,209494.0,119.77,3,17,20
+9,Blue Mound,Tarrant County,217796.0,122.07,7,14,21
+10,Lake Worth,Tarrant County,231586.0,130.71,13,9,22
+11,Balch Springs,Dallas County,221676.0,120.61,10,16,26
+12,Greenville,Hunt County,241236.0,115.36,15,23,38
+13,Haltom City,Tarrant County,238579.0,113.05,14,25,39
+14,Quinlan,Hunt County,280319.0,133.79,33,7,40
+15,Wills Point,Van Zandt County,255605.0,105.41,19,31,50
+15,Italy,Ellis County,263909.0,108.74,21,29,50
+16,Richland Hills,Tarrant County,278805.0,116.81,32,20,52
+17,Keene,Johnson County,254707.0,103.81,18,36,54
+18,Wolfe City,Hunt County,273460.0,112.0,29,26,55
+19,Lancaster,Dallas County,270707.0,105.74,26,30,56
+20,Alvarado,Johnson County,302345.0,123.01,45,13,58
+21,Bridgeport,Wise County,226156.0,99.6,12,48,60
+22,Milford,Ellis County,249481.0,100.85,17,44,61
+23,Seagoville,Dallas County,269658.0,103.31,25,38,63
+24,Duncanville,Dallas County,273687.0,103.93,30,35,65
+25,Caddo Mills,Hunt County,320398.0,121.98,56,15,71
+26,Lone Oak,Hunt County,290377.0,104.0,38,34,72
+27,Ferris,Ellis County,293191.0,105.17,41,32,73
+28,Kemp,Kaufman County,267232.0,97.63,23,53,76
+29,Ennis,Ellis County,264277.0,97.4,22,55,77
+29,Cleburne,Johnson County,271267.0,98.17,27,50,77
+30,Terrell,Kaufman County,280659.0,101.06,35,43,78
+31,Watauga,Tarrant County,272321.0,97.76,28,52,80
+32,Westworth Village,Tarrant County,338383.0,119.63,70,18,88
+32,Runaway Bay,Wise County,290493.0,98.96,39,49,88
+33,Mesquite,Dallas County,259181.0,92.31,20,69,89
+34,Celeste,Hunt County,346105.0,115.6,76,21,97
+35,Campbell,Hunt County,357712.0,115.44,84,22,106
+35,Edgecliff Village,Tarrant County,300488.0,95.01,44,62,106
+36,Grand Prairie,Dallas County,313244.0,95.95,52,58,110
+37,Kaufman,Kaufman County,288279.0,91.24,37,74,111
+38,Palmer,Ellis County,320827.0,96.25,58,56,114
+39,Rhome,Wise County,363995.0,111.98,88,27,115
+40,Cedar Hill,Dallas County,312568.0,91.57,51,72,123
+41,Newark,Wise County,304242.0,90.04,46,78,124
+41,Garland,Dallas County,282137.0,86.3,36,88,124
+42,Arlington,Tarrant County,306955.0,89.3,48,80,128
+42,Blue Ridge,Collin County,428387.0,124.05,116,12,128
+43,Rio Vista,Johnson County,332323.0,93.33,64,65,129
+44,Hurst,Tarrant County,330712.0,92.64,62,68,130
+45,Grandview,Johnson County,399209.0,114.17,107,24,131
+46,Fort Worth,Tarrant County,294999.0,85.99,42,90,132
+47,Saginaw,Tarrant County,296865.0,85.99,43,91,134
+48,Dallas,Dallas County,304527.0,86.14,47,89,136
+49,Alvord,Wise County,359766.0,97.78,86,51,137
+49,Reno,Parker County,383186.0,102.92,98,39,137
+49,Farmersville,Collin County,333616.0,92.02,67,70,137
+50,Desoto,Dallas County,320625.0,89.09,57,81,138
+51,Joshua,Johnson County,353555.0,95.86,81,59,140
+52,Mabank,Kaufman County,273725.0,78.48,31,110,141
+53,Glenn Heights,Dallas County,328108.0,88.71,61,82,143
+54,Boyd,Wise County,351826.0,94.61,80,64,144
+54,Irving,Dallas County,337337.0,90.92,69,75,144
+55,Venus,Johnson County,324286.0,86.77,60,86,146
+55,Springtown,Parker County,389330.0,100.29,101,45,146
+56,Crowley,Tarrant County,313429.0,85.03,53,94,147
+57,Lake Dallas,Denton County,340653.0,90.43,71,77,148
+58,Sunset,Montague County,459046.0,110.06,128,28,156
+59,Benbrook,Tarrant County,313856.0,81.81,55,103,158
+59,Pilot Point,Denton County,322513.0,83.04,59,99,158
+60,Farmers Branch,Dallas County,371721.0,93.25,93,66,159
+60,Red Oak,Ellis County,344895.0,87.35,74,85,159
+61,Burleson,Johnson County,336686.0,85.3,68,92,160
+62,Azle,Parker County,332963.0,84.06,66,95,161
+63,Godley,Johnson County,434814.0,101.95,120,42,162
+63,Maypearl,Ellis County,375938.0,92.77,95,67,162
+64,Paradise,Wise County,454486.0,103.78,127,37,164
+65,Euless,Tarrant County,351802.0,86.76,79,87,166
+66,Combine,Kaufman County,403960.0,95.12,109,61,170
+67,Lakeside,Tarrant County,371819.0,89.69,94,79,173
+68,Chico,Wise County,357045.0,85.14,83,93,176
+69,Post Oak Bend City,Kaufman County,433364.0,95.26,118,60,178
+70,Oak Leaf,Ellis County,449367.0,97.56,125,54,179
+71,Josephine,Collin County,280330.0,62.46,34,147,181
+71,Poolville,Parker County,447659.0,96.22,124,57,181
+72,Bartonville,Denton County,1397833.0,118.25,163,19,182
+73,Crandall,Kaufman County,267423.0,55.28,24,159,183
+74,North Richland Hills,Tarrant County,362457.0,83.35,87,98,185
+74,Decatur,Wise County,435396.0,94.62,122,63,185
+74,Ponder,Denton County,311442.0,67.99,50,135,185
+75,Sanger,Denton County,354207.0,81.07,82,106,188
+75,Bedford,Tarrant County,368601.0,83.69,91,97,188
+76,Krum,Denton County,332454.0,72.78,65,124,189
+77,Copper Canyon,Denton County,1027154.0,104.37,159,33,192
+78,Pantego,Tarrant County,345582.0,75.17,75,118,193
+79,Waxahachie,Ellis County,369427.0,81.89,92,102,194
+80,Aubrey,Denton County,344719.0,72.15,73,126,199
+81,Lowry Crossing,Collin County,379505.0,81.29,96,105,201
+82,Princeton,Collin County,290908.0,48.22,40,164,204
+82,University Park,Dallas County,2411473.0,102.1,164,40,204
+83,Aurora,Wise County,492357.0,91.57,134,71,205
+83,Justin,Denton County,365765.0,76.71,90,115,205
+84,Denton,Denton County,347056.0,70.57,77,129,206
+85,Highland Park,Dallas County,2926287.0,101.97,166,41,207
+86,Nevada,Collin County,400676.0,82.18,108,100,208
+86,Southlake,Tarrant County,1295922.0,100.19,162,46,208
+86,Rowlett,Dallas County,365665.0,74.32,89,119,208
+87,Weatherford,Parker County,396100.0,81.79,105,104,209
+88,Royse City,Rockwall County,313673.0,57.28,54,156,210
+89,Forney,Kaufman County,308522.0,47.83,49,165,214
+89,Westlake,Tarrant County,3177534.0,99.72,167,47,214
+90,Ovilla,Ellis County,496208.0,88.48,135,83,218
+91,Kennedale,Tarrant County,381021.0,73.05,97,122,219
+92,The Colony,Denton County,396753.0,76.09,106,117,223
+92,Cross Roads,Denton County,331346.0,54.81,63,160,223
+93,Double Oak,Denton County,836036.0,91.45,157,73,230
+93,New Hope,Collin County,434936.0,78.7,121,109,230
+94,Carrollton,Dallas County,395426.0,70.05,103,130,233
+94,Anna,Collin County,344602.0,54.59,72,161,233
+95,Richardson,Dallas County,434275.0,76.18,119,116,235
+96,Midlothian,Ellis County,450546.0,78.07,126,111,237
+96,Corinth,Denton County,407744.0,71.51,110,127,237
+97,Saint Paul,Collin County,575534.0,83.73,144,96,240
+97,Lewisville,Denton County,385564.0,66.3,99,141,240
+98,Westover Hills,Tarrant County,2622091.0,90.74,165,76,241
+99,Mansfield,Tarrant County,439945.0,73.68,123,120,243
+100,Lucas,Collin County,1055158.0,88.09,160,84,244
+101,Lavon,Collin County,349341.0,41.93,78,167,245
+102,Fate,Rockwall County,358894.0,50.85,85,163,248
+102,Willow Park,Parker County,418825.0,67.82,111,137,248
+103,Roanoke,Denton County,422816.0,67.24,113,138,251
+103,Krugerville,Denton County,390442.0,62.07,102,149,251
+104,Haslet,Tarrant County,385916.0,58.47,100,153,253
+105,Grapevine,Tarrant County,543036.0,77.89,142,112,254
+105,Hickory Creek,Denton County,489984.0,72.89,131,123,254
+106,Hudson Oaks,Parker County,541131.0,77.34,141,114,255
+106,Wylie,Collin County,419863.0,65.52,112,143,255
+107,Sachse,Dallas County,429749.0,66.48,117,139,256
+108,Rockwall,Rockwall County,474583.0,70.73,129,128,257
+109,Annetta,Parker County,529080.0,73.55,139,121,260
+110,Parker,Collin County,1095200.0,82.13,161,101,262
+111,Pecan Acres,Tarrant County,731160.0,80.62,155,108,263
+112,Keller,Tarrant County,644441.0,77.4,151,113,264
+113,Colleyville,Tarrant County,901514.0,80.74,158,107,265
+114,Little Elm,Denton County,395839.0,50.91,104,162,266
+115,Melissa,Collin County,427440.0,55.85,115,158,273
+116,Trophy Club,Denton County,685420.0,72.41,153,125,278
+117,Highland Village,Denton County,577901.0,68.97,145,134,279
+118,Flower Mound,Denton County,597833.0,69.83,148,132,280
+118,Cresson,Parker County,426564.0,42.59,114,166,280
+119,Allen,Collin County,490939.0,60.84,132,151,283
+120,Celina,Collin County,522840.0,63.27,138,146,284
+121,Aledo,Parker County,540331.0,64.44,140,145,285
+121,Heath,Rockwall County,706363.0,69.86,154,131,285
+122,Sunnyvale,Dallas County,629105.0,67.93,150,136,286
+123,Dalworthington Gardens,Tarrant County,547877.0,65.34,143,144,287
+123,McKinney,Collin County,475237.0,56.82,130,157,287
+124,Plano,Collin County,497882.0,59.78,136,152,288
+124,Northlake,Denton County,492019.0,58.08,133,155,288
+125,Argyle,Denton County,596544.0,65.66,147,142,289
+125,Prosper,Collin County,769798.0,69.76,156,133,289
+125,Coppell,Dallas County,605673.0,66.47,149,140,289
+126,Addison,Dallas County,502698.0,58.27,137,154,291
+127,Murphy,Collin County,580642.0,61.91,146,150,296
+128,Frisco,Collin County,645760.0,62.35,152,148,300

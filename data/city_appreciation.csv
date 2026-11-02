@@ -1,0 +1,168 @@
+City,County,State,Starting_Value,Current_Value,Appreciation_Percent
+Wilmer,Dallas County,Texas,78816,224424,184.74
+Hutchins,Dallas County,Texas,93737,248669,165.29
+Forest Hill,Tarrant County,Texas,88167,221541,151.27
+River Oaks,Tarrant County,Texas,90624,216511,138.91
+Everman,Tarrant County,Texas,91077,216376,137.58
+Sansom Park,Tarrant County,Texas,83055,195534,135.43
+Quinlan,Hunt County,Texas,119905,280319,133.79
+West Tawakoni,Hunt County,Texas,78241,181743,132.29
+Lake Worth,Tarrant County,Texas,100380,231586,130.71
+Commerce,Hunt County,Texas,93791,213160,127.27
+White Settlement,Tarrant County,Texas,96808,217858,125.04
+Blue Ridge,Collin County,Texas,191202,428387,124.05
+Alvarado,Johnson County,Texas,135575,302345,123.01
+Blue Mound,Tarrant County,Texas,98074,217796,122.07
+Caddo Mills,Hunt County,Texas,144336,320398,121.98
+Balch Springs,Dallas County,Texas,100482,221676,120.61
+Cockrell Hill,Dallas County,Texas,95325,209494,119.77
+Westworth Village,Tarrant County,Texas,154071,338383,119.63
+Bartonville,Denton County,Texas,640484,1397833,118.25
+Richland Hills,Tarrant County,Texas,128592,278805,116.81
+Celeste,Hunt County,Texas,160533,346105,115.6
+Campbell,Hunt County,Texas,166037,357712,115.44
+Greenville,Hunt County,Texas,112015,241236,115.36
+Grandview,Johnson County,Texas,186402,399209,114.17
+Haltom City,Tarrant County,Texas,111984,238579,113.05
+Wolfe City,Hunt County,Texas,128992,273460,112
+Rhome,Wise County,Texas,171711,363995,111.98
+Sunset,Montague County,Texas,218527,459046,110.06
+Italy,Ellis County,Texas,126432,263909,108.74
+Lancaster,Dallas County,Texas,131579,270707,105.74
+Wills Point,Van Zandt County,Texas,124435,255605,105.41
+Ferris,Ellis County,Texas,142900,293191,105.17
+Copper Canyon,Denton County,Texas,502599,1027154,104.37
+Lone Oak,Hunt County,Texas,142342,290377,104
+Duncanville,Dallas County,Texas,134206,273687,103.93
+Keene,Johnson County,Texas,124971,254707,103.81
+Paradise,Wise County,Texas,223026,454486,103.78
+Seagoville,Dallas County,Texas,132634,269658,103.31
+Reno,Parker County,Texas,188836,383186,102.92
+University Park,Dallas County,Texas,1193183,2411473,102.1
+Highland Park,Dallas County,Texas,1448869,2926287,101.97
+Godley,Johnson County,Texas,215309,434814,101.95
+Terrell,Kaufman County,Texas,139591,280659,101.06
+Milford,Ellis County,Texas,124211,249481,100.85
+Springtown,Parker County,Texas,194381,389330,100.29
+Southlake,Tarrant County,Texas,647352,1295922,100.19
+Westlake,Tarrant County,Texas,1590961,3177534,99.72
+Bridgeport,Wise County,Texas,113307,226156,99.6
+Runaway Bay,Wise County,Texas,146007,290493,98.96
+Cleburne,Johnson County,Texas,136883,271267,98.17
+Alvord,Wise County,Texas,181901,359766,97.78
+Watauga,Tarrant County,Texas,137702,272321,97.76
+Kemp,Kaufman County,Texas,135218,267232,97.63
+Oak Leaf,Ellis County,Texas,227457,449367,97.56
+Ennis,Ellis County,Texas,133881,264277,97.4
+Palmer,Ellis County,Texas,163483,320827,96.25
+Poolville,Parker County,Texas,228147,447659,96.22
+Grand Prairie,Dallas County,Texas,159856,313244,95.95
+Joshua,Johnson County,Texas,180517,353555,95.86
+Post Oak Bend City,Kaufman County,Texas,221942,433364,95.26
+Combine,Kaufman County,Texas,207029,403960,95.12
+Edgecliff Village,Tarrant County,Texas,154085,300488,95.01
+Decatur,Wise County,Texas,223715,435396,94.62
+Boyd,Wise County,Texas,180786,351826,94.61
+Rio Vista,Johnson County,Texas,171890,332323,93.33
+Farmers Branch,Dallas County,Texas,192349,371721,93.25
+Maypearl,Ellis County,Texas,195017,375938,92.77
+Hurst,Tarrant County,Texas,171674,330712,92.64
+Mesquite,Dallas County,Texas,134772,259181,92.31
+Farmersville,Collin County,Texas,173740,333616,92.02
+Aurora,Wise County,Texas,257007,492357,91.57
+Cedar Hill,Dallas County,Texas,163163,312568,91.57
+Double Oak,Denton County,Texas,436698,836036,91.45
+Kaufman,Kaufman County,Texas,150740,288279,91.24
+Irving,Dallas County,Texas,176686,337337,90.92
+Westover Hills,Tarrant County,Texas,1374726,2622091,90.74
+Lake Dallas,Denton County,Texas,178887,340653,90.43
+Newark,Wise County,Texas,160097,304242,90.04
+Lakeside,Tarrant County,Texas,196011,371819,89.69
+Arlington,Tarrant County,Texas,162156,306955,89.3
+Desoto,Dallas County,Texas,169562,320625,89.09
+Glenn Heights,Dallas County,Texas,173868,328108,88.71
+Ovilla,Ellis County,Texas,263274,496208,88.48
+Lucas,Collin County,Texas,560980,1055158,88.09
+Red Oak,Ellis County,Texas,184091,344895,87.35
+Venus,Johnson County,Texas,173632,324286,86.77
+Euless,Tarrant County,Texas,188373,351802,86.76
+Garland,Dallas County,Texas,151443,282137,86.3
+Dallas,Dallas County,Texas,163598,304527,86.14
+Saginaw,Tarrant County,Texas,159615,296865,85.99
+Fort Worth,Tarrant County,Texas,158611,294999,85.99
+Burleson,Johnson County,Texas,181702,336686,85.3
+Chico,Wise County,Texas,192851,357045,85.14
+Crowley,Tarrant County,Texas,169394,313429,85.03
+Azle,Parker County,Texas,180899,332963,84.06
+Saint Paul,Collin County,Texas,313243,575534,83.73
+Bedford,Tarrant County,Texas,200663,368601,83.69
+North Richland Hills,Tarrant County,Texas,197685,362457,83.35
+Pilot Point,Denton County,Texas,176196,322513,83.04
+Nevada,Collin County,Texas,219930,400676,82.18
+Parker,Collin County,Texas,601341,1095200,82.13
+Waxahachie,Ellis County,Texas,203107,369427,81.89
+Benbrook,Tarrant County,Texas,172628,313856,81.81
+Weatherford,Parker County,Texas,217884,396100,81.79
+Lowry Crossing,Collin County,Texas,209340,379505,81.29
+Sanger,Denton County,Texas,195614,354207,81.07
+Colleyville,Tarrant County,Texas,498793,901514,80.74
+Pecan Acres,Tarrant County,Texas,404797,731160,80.62
+New Hope,Collin County,Texas,243394,434936,78.7
+Mabank,Kaufman County,Texas,153361,273725,78.48
+Midlothian,Ellis County,Texas,253023,450546,78.07
+Grapevine,Tarrant County,Texas,305257,543036,77.89
+Keller,Tarrant County,Texas,363278,644441,77.4
+Hudson Oaks,Parker County,Texas,305135,541131,77.34
+Justin,Denton County,Texas,206987,365765,76.71
+Richardson,Dallas County,Texas,246498,434275,76.18
+The Colony,Denton County,Texas,225319,396753,76.09
+Pantego,Tarrant County,Texas,197279,345582,75.17
+Rowlett,Dallas County,Texas,209762,365665,74.32
+Mansfield,Tarrant County,Texas,253315,439945,73.68
+Annetta,Parker County,Texas,304866,529080,73.55
+Kennedale,Tarrant County,Texas,220180,381021,73.05
+Hickory Creek,Denton County,Texas,283412,489984,72.89
+Krum,Denton County,Texas,192420,332454,72.78
+Trophy Club,Denton County,Texas,397556,685420,72.41
+Aubrey,Denton County,Texas,200243,344719,72.15
+Corinth,Denton County,Texas,237743,407744,71.51
+Rockwall,Rockwall County,Texas,277972,474583,70.73
+Denton,Denton County,Texas,203467,347056,70.57
+Carrollton,Dallas County,Texas,232529,395426,70.05
+Heath,Rockwall County,Texas,415856,706363,69.86
+Flower Mound,Denton County,Texas,352009,597833,69.83
+Prosper,Collin County,Texas,453453,769798,69.76
+Highland Village,Denton County,Texas,342016,577901,68.97
+Ponder,Denton County,Texas,185395,311442,67.99
+Sunnyvale,Dallas County,Texas,374631,629105,67.93
+Willow Park,Parker County,Texas,249569,418825,67.82
+Roanoke,Denton County,Texas,252819,422816,67.24
+Sachse,Dallas County,Texas,258141,429749,66.48
+Coppell,Dallas County,Texas,363839,605673,66.47
+Lewisville,Denton County,Texas,231852,385564,66.3
+Argyle,Denton County,Texas,360101,596544,65.66
+Wylie,Collin County,Texas,253670,419863,65.52
+Dalworthington Gardens,Tarrant County,Texas,331357,547877,65.34
+Aledo,Parker County,Texas,328590,540331,64.44
+Celina,Collin County,Texas,320233,522840,63.27
+Josephine,Collin County,Texas,172552,280330,62.46
+Frisco,Collin County,Texas,397755,645760,62.35
+Krugerville,Denton County,Texas,240904,390442,62.07
+Murphy,Collin County,Texas,358620,580642,61.91
+Allen,Collin County,Texas,305227,490939,60.84
+Plano,Collin County,Texas,311600,497882,59.78
+Haslet,Tarrant County,Texas,243531,385916,58.47
+Addison,Dallas County,Texas,317612,502698,58.27
+Northlake,Denton County,Texas,311252,492019,58.08
+Royse City,Rockwall County,Texas,199434,313673,57.28
+McKinney,Collin County,Texas,303047,475237,56.82
+Melissa,Collin County,Texas,274258,427440,55.85
+Crandall,Kaufman County,Texas,172222,267423,55.28
+Cross Roads,Denton County,Texas,214030,331346,54.81
+Anna,Collin County,Texas,222916,344602,54.59
+Little Elm,Denton County,Texas,262297,395839,50.91
+Fate,Rockwall County,Texas,237910,358894,50.85
+Princeton,Collin County,Texas,196265,290908,48.22
+Forney,Kaufman County,Texas,208695,308522,47.83
+Cresson,Parker County,Texas,299146,426564,42.59
+Lavon,Collin County,Texas,246142,349341,41.93

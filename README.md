@@ -24,6 +24,11 @@ The project was designed to answer the following questions:
 
 ## Tools and Technologies
 
+![SQL](https://img.shields.io/badge/SQL-Google%20BigQuery-blue)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
+![Excel](https://img.shields.io/badge/Excel-Analysis-green)
+![Status](https://img.shields.io/badge/Status-Complete-success)
+
 | Tool            | Purpose                                                            |
 | --------------- | ------------------------------------------------------------------ |
 | Google BigQuery | Data storage, SQL analysis, and query development                  |
@@ -32,6 +37,11 @@ The project was designed to answer the following questions:
 | Microsoft Excel | Data review and validation                                         |
 | Power Query     | Data preparation and transformation                                |
 | GitHub          | Project documentation, version control, and portfolio presentation |
+
+![SQL](https://img.shields.io/badge/SQL-Google%20BigQuery-blue)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
+![Excel](https://img.shields.io/badge/Excel-Analysis-green)
+![Status](https://img.shields.io/badge/Status-Complete-success)
 
 ---
 
@@ -288,11 +298,6 @@ The project also demonstrates how data can be transformed into practical market 
 # DFW Housing Market Analysis
 
 **End-to-End Business Intelligence Portfolio Project**
-
-![SQL](https://img.shields.io/badge/SQL-Google%20BigQuery-blue)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
-![Excel](https://img.shields.io/badge/Excel-Analysis-green)
-![Status](https://img.shields.io/badge/Status-Complete-success)
 
 ## Project Overview
 This project analyzes the Dallas–Fort Worth (DFW) housing market using Zillow Home Value Index (ZHVI) data to identify current market conditions, long-term appreciation trends, and cities offering the strongest buying opportunities.

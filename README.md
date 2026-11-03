@@ -1,3 +1,290 @@
+# Finding Value in DFW: A 10-Year Housing Market Analysis
+
+## Project Overview
+
+This project analyzes residential home value trends across the Dallas–Fort Worth (DFW) Metroplex over a 10-year period, from **May 31, 2016, through May 31, 2026**.
+
+Using Zillow Home Value Index (ZHVI) data, the analysis explores current home values, long-term appreciation, buyer opportunity, and county-level market performance. The goal is to turn housing market data into actionable insights that can support homebuyers, real estate professionals, and market researchers.
+
+The project uses SQL in Google BigQuery to prepare and analyze the data, Tableau to create interactive dashboards, and Excel and Power Query to support data validation and preparation.
+
+---
+
+## Project Objectives
+
+The project was designed to answer the following questions:
+
+* Which DFW cities currently have the lowest and highest home values?
+* Which cities have experienced the strongest and weakest home value appreciation over the past decade?
+* Where might buyers find a combination of relatively affordable home values and strong long-term appreciation?
+* How do DFW counties compare across home values, appreciation, and buyer opportunity?
+* Which areas may warrant further research by buyers and real estate professionals?
+
+---
+
+## Tools and Technologies
+
+| Tool            | Purpose                                                            |
+| --------------- | ------------------------------------------------------------------ |
+| Google BigQuery | Data storage, SQL analysis, and query development                  |
+| SQL             | Data filtering, aggregation, ranking, and metric calculation       |
+| Tableau         | Interactive dashboard development and visualization                |
+| Microsoft Excel | Data review and validation                                         |
+| Power Query     | Data preparation and transformation                                |
+| GitHub          | Project documentation, version control, and portfolio presentation |
+
+---
+
+## Data Source and Methodology
+
+### Data Source
+
+The analysis uses the **Zillow Home Value Index (ZHVI)** dataset, which provides estimated home values across geographic markets.
+
+The dataset was imported into Google BigQuery for analysis. The primary BigQuery table is:
+
+`dfw_housing_analysis.housing_data`
+
+### Analysis Period
+
+The official analysis period is:
+
+* **Starting observation:** May 31, 2016
+* **Ending observation:** May 31, 2026
+* **Duration:** 10 years
+
+The latest-home-value analysis uses the most recent available observation on or before May 31, 2026.
+
+### Geographic Scope and Eligibility
+
+The current home value snapshot includes **176 eligible cities across 13 counties**.
+
+The 10-year appreciation and Buyer Opportunity Index analyses include **167 cities across the same 13 counties**. These analyses require valid home value observations at both the beginning and ending dates of the analysis period.
+
+Nine cities were excluded from the appreciation-based analyses because they did not have a qualifying May 31, 2016 observation. They were not assigned fabricated or estimated starting values.
+
+The following cities were excluded from the project’s analysis:
+
+* Fairview
+* Lantana
+* Perrin
+
+### Key Methodology
+
+**Latest Home Value**
+
+The latest home value for each city is based on the most recent available observation on or before May 31, 2026.
+
+**10-Year Home Value Appreciation**
+
+Appreciation is calculated using the home value at the beginning and end of the analysis period:
+
+$$
+\text{Appreciation (\%)} =
+\frac{\text{Ending Home Value} - \text{Starting Home Value}}
+{\text{Starting Home Value}} \times 100
+$$
+
+Cities must have valid observations at both endpoints to be included.
+
+**County Average Appreciation**
+
+County appreciation is calculated as the unweighted average of the appreciation percentages for eligible cities within each county.
+
+**Buyer Opportunity Index**
+
+The Buyer Opportunity Index combines city-level affordability and 10-year appreciation rankings.
+
+* Affordability rank: lower home values receive better ranks.
+* Appreciation rank: higher appreciation receives better ranks.
+* Buyer Opportunity Score: the sum of the affordability and appreciation ranks.
+* Buyer Opportunity Rank: cities are ranked by their combined score, with lower scores indicating stronger opportunity.
+
+The index is a comparative screening tool. It does not account for every factor that influences an individual home purchase, such as mortgage rates, taxes, insurance, property condition, or household finances.
+
+**County Performance Score**
+
+The County Performance Score is calculated as the average of three county rankings:
+
+1. Average home value rank
+2. Average appreciation rank
+3. Average Buyer Opportunity rank
+
+A lower County Performance Score indicates stronger overall performance across the three measures.
+
+---
+
+## Dashboard Overview
+
+The project includes four Tableau dashboards.
+
+### Dashboard 1 — Current Market Snapshot
+
+Provides a snapshot of current home values across the DFW Metroplex.
+
+The dashboard supports comparisons between cities and helps identify areas with relatively low or high estimated home values.
+
+### Dashboard 2 — Home Value Appreciation
+
+Examines 10-year home value appreciation from May 31, 2016, through May 31, 2026.
+
+The dashboard highlights city-level appreciation, county-level comparisons, and the strongest and weakest appreciation outcomes.
+
+**Key findings:**
+
+* Average city appreciation was approximately **89%**.
+* **Wilmer** had the highest appreciation at **184.74%**.
+* **Lavon** had the lowest appreciation at **41.93%**.
+* **81 cities** had appreciation above the overall city average.
+
+### Dashboard 3 — Buyer Opportunity Index
+
+Combines relative affordability and 10-year appreciation to identify cities that may offer a favorable balance between current home values and historical growth.
+
+**Key findings:**
+
+* **Sansom Park** had the strongest Buyer Opportunity Index result, with a score of **8**.
+* The average Buyer Opportunity Score was **168**.
+* **87 cities** had scores above the average score.
+* **Frisco** had the highest numeric score at **300**, representing the weakest result under this index.
+
+**Interpretation:** A lower Buyer Opportunity Score indicates a stronger result. A high numeric score should not be interpreted as a better buying opportunity.
+
+### Dashboard 4 — Executive Market Performance
+
+Compares the 13 counties across average home values, appreciation, and Buyer Opportunity Index performance.
+
+The dashboard combines these measures into a County Performance Score to provide a high-level comparison of overall county performance.
+
+**Key findings:**
+
+* **Tarrant County** ranked first overall, with a County Performance Score of **4.33**.
+* Tarrant County had the highest average home value, at approximately **$537,000**.
+* **Hunt County** had the highest average city appreciation at **119.75%**.
+* **Van Zandt County** had the strongest average Buyer Opportunity result, with the lowest average Buyer Opportunity Score of **50.00**.
+* **Rockwall County** ranked last overall, with a County Performance Score of **10.33**.
+
+---
+
+## Key Business Insights
+
+### 1. Home values and appreciation are not the same thing
+
+A city with a high current home value is not necessarily a city with the strongest historical appreciation. Evaluating both measures provides a more complete view of the market.
+
+### 2. Relative affordability can reveal additional opportunities
+
+Some cities with comparatively lower home values have also experienced substantial appreciation. The Buyer Opportunity Index helps identify these combinations rather than relying on affordability or appreciation alone.
+
+### 3. County-level results can conceal city-level variation
+
+County averages provide useful context, but individual cities within the same county can have very different home value and appreciation patterns. City-level analysis remains important when evaluating a specific market.
+
+### 4. A ranking is a screening tool, not a purchase recommendation
+
+The Buyer Opportunity Index and County Performance Score are designed to compare markets using the selected metrics. They do not replace property-level due diligence or a buyer’s financial analysis.
+
+---
+
+## Recommendations
+
+Based on the findings, the following actions may be useful for further market research:
+
+* **Explore cities with lower Buyer Opportunity Scores.** These cities combine stronger relative affordability and appreciation rankings under the project’s methodology.
+* **Compare current home values with historical appreciation.** A city’s current price alone does not describe its long-term performance.
+* **Investigate county averages at the city level.** County results can mask meaningful differences between individual markets.
+* **Use the dashboards as a starting point for deeper research.** Buyers and real estate professionals should also consider taxes, insurance, financing costs, inventory, neighborhood conditions, and property-specific factors.
+
+These recommendations are based on historical ZHVI data and should not be interpreted as predictions of future home value performance.
+
+---
+
+## Project Structure
+
+```text
+dfw-housing-market-analysis/
+│
+├── data/
+│   ├── latest_home_values.csv
+│   ├── city_appreciation.csv
+│   ├── county_appreciation.csv
+│   ├── buyer_opportunity_index.csv
+│   └── county_performance.csv
+│
+├── dashboards/
+│   ├── dashboard_1_current_market_snapshot
+│   ├── dashboard_2_home_value_appreciation
+│   ├── dashboard_3_buyer_opportunity_index
+│   └── dashboard_4_executive_market_performance
+│
+├── sql/
+│   └── analysis_queries.sql
+│
+├── documentation/
+│   ├── executive_summary.pdf
+│   ├── methodology.pdf
+│   └── data_dictionary.pdf
+│
+└── README.md
+```
+
+*Note: The directory structure above is a documentation example. Adjust the names and folders to match the files actually present in the repository.*
+
+---
+
+## Data Quality and Validation
+
+Data validation was performed before refreshing the dashboards.
+
+Validation checks included:
+
+* Confirming expected row counts and unique city or county records.
+* Checking for missing values and duplicate records.
+* Confirming that the latest home value dataset uses the correct ending observation date.
+* Verifying that appreciation calculations use the fixed 10-year endpoints.
+* Confirming that appreciation-based analyses include only cities with valid observations at both endpoints.
+* Comparing county appreciation averages against the city-level data.
+* Verifying Buyer Opportunity Scores against the sum of affordability and appreciation ranks.
+* Confirming Buyer Opportunity Rank ordering.
+* Comparing county performance metrics and rankings against the SQL output.
+
+The validated datasets currently contain:
+
+| Dataset                 |     Records | Geographic Coverage |
+| ----------------------- | ----------: | ------------------- |
+| Latest Home Values      |  176 cities | 13 counties         |
+| City Appreciation       |  167 cities | 13 counties         |
+| County Appreciation     | 13 counties | 13 counties         |
+| Buyer Opportunity Index |  167 cities | 13 counties         |
+| County Performance      | 13 counties | 13 counties         |
+
+The difference between the 176-city current snapshot and the 167-city appreciation-based datasets is intentional and reflects the endpoint eligibility requirements.
+
+---
+
+## Future Improvements
+
+Potential next steps for expanding the project include:
+
+* Incorporating additional housing market indicators.
+* Comparing home value trends with local income and affordability measures.
+* Analyzing changes in market performance over shorter time periods.
+* Adding data on property taxes, mortgage rates, or housing inventory.
+* Developing a repeatable process to refresh the data and dashboards as new observations become available.
+
+---
+
+## Project Summary
+
+This project demonstrates an end-to-end data analytics workflow, from preparing and validating a public dataset to developing SQL analyses and interactive Tableau dashboards.
+
+The analysis provides a structured view of the DFW housing market by examining current home values, 10-year appreciation, buyer opportunity, and county-level performance.
+
+The project also demonstrates how data can be transformed into practical market insights while documenting methodology, eligibility requirements, and limitations.
+
+**The central takeaway:** Understanding a housing market requires more than looking at current prices. Combining affordability, historical appreciation, and geographic context provides a more useful foundation for further research and decision-making.
+
+
 # DFW Housing Market Analysis
 
 **End-to-End Business Intelligence Portfolio Project**

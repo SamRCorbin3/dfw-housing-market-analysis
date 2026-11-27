@@ -68,6 +68,7 @@ The 10-year appreciation and Buyer Opportunity Index analyses include **167 citi
 
 Nine cities were excluded from the appreciation-based analyses because they did not have a qualifying May 31, 2016 observation. They were not assigned fabricated or estimated starting values.
 
+### Additional Geographic Exclusions
 The following cities were excluded from the project’s analysis:
 
 * Fairview
@@ -111,11 +112,20 @@ The index is a comparative screening tool. It does not account for every factor 
 
 The County Performance Score is calculated as the average of three county rankings:
 
-1. Average home value rank
-2. Average appreciation rank
-3. Average Buyer Opportunity rank
+| Component | Ranking Direction | Best Result |
+|---|---|---|
+| Average Home Value Rank | Descending | Highest average home value |
+| Average Appreciation Rank | Descending | Highest appreciation |
+| Average Buyer Opportunity Rank | Ascending | Lowest average Buyer Opportunity Score |
 
-A lower County Performance Score indicates stronger overall performance across the three measures.
+Formula:
+<br>
+\[
+\text{County Performance Score} =
+\frac{\text{Home Value Rank}+\text{Appreciation Rank}+\text{Buyer Opportunity Rank}}{3}
+\]
+
+A lower composite score represents stronger overall performance.
 
 ---
 
@@ -222,30 +232,50 @@ These recommendations are based on historical ZHVI data and should not be interp
 dfw-housing-market-analysis/
 │
 ├── data/
-│   ├── latest_home_values.csv
+│   ├── buyer_opportunity_index.csv
 │   ├── city_appreciation.csv
 │   ├── county_appreciation.csv
-│   ├── buyer_opportunity_index.csv
-│   └── county_performance.csv
-│
-├── dashboards/
-│   ├── dashboard_1_current_market_snapshot
-│   ├── dashboard_2_home_value_appreciation
-│   ├── dashboard_3_buyer_opportunity_index
-│   └── dashboard_4_executive_market_performance
-│
-├── sql/
-│   └── analysis_queries.sql
+│   ├── county_performance.csv
+│   └── latest_home_values.csv
 │
 ├── documentation/
-│   ├── executive_summary.pdf
-│   ├── methodology.pdf
-│   └── data_dictionary.pdf
+│   ├── Data Dictionary.pdf
+│   ├── Executive Summary.pdf
+│   └── Methodology Document.pdf
 │
+├── images/
+│   ├── analtytics_workflow.png
+│   ├── dashboard1_CurrentMarket.png
+│   ├── dashboard2_Appreciation.png
+│   ├── dashboard3_BuyerOpportunity.png
+│   └── dashboard4_ExecutiveMarketSummary.png
+|
+├── sql/
+│   ├── 01_data_validation.sql│
+|   ├── 02_market_overview.sql
+│   ├── 03_date_range.sql
+│   ├── 04_home_value_range.sql
+│   ├── 05_avg_home_value.sql
+│   ├── 06_cities_by_county.sql
+│   ├── 07_Average_Home_Value_by_County.sql
+│   ├── 08_latest_home_values.sql
+|   ├── 09_top_10_affordable.sql
+│   ├── 10_top_10_expensive.sql
+│   ├── 11_10_year_appreciation.sql
+│   ├── 12_top_appreciating_cities.sql
+│   ├── 13_bottom_appreciating_cities.sql
+│   ├── 14_county_appreciation.sql
+|   ├── 15_buyer_opportunity_index.sql
+│   └── 16_county_performance.sql
+|
+├── tableau/
+│   ├── Buyer Opportunity Index.twb
+│   ├── DFW Home Value Appreciation.twb
+│   ├── DFW Housing Market Snapshot.twb
+│   └── Executive Market Performance.twbx
+|
 └── README.md
 ```
-
-*Note: The directory structure above is a documentation example. Adjust the names and folders to match the files actually present in the repository.*
 
 ---
 

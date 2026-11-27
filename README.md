@@ -129,6 +129,10 @@ Provides a snapshot of current home values across the DFW Metroplex.
 
 The dashboard supports comparisons between cities and helps identify areas with relatively low or high estimated home values.
 
+![Dashboard 1](images/dashboard1_CurrentMarket.png)
+
+https://public.tableau.com/views/Dashboard1_CurrentMarket/CurrentMarketSnapshot?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ### Dashboard 2 — Home Value Appreciation
 
 Examines 10-year home value appreciation from May 31, 2016, through May 31, 2026.
@@ -141,6 +145,10 @@ The dashboard highlights city-level appreciation, county-level comparisons, and 
 * **Wilmer** had the highest appreciation at **184.74%**.
 * **Lavon** had the lowest appreciation at **41.93%**.
 * **81 cities** had appreciation above the overall city average.
+
+![Dashboard 2](images/dashboard2_Appreciation.png)
+
+https://public.tableau.com/shared/QZC4F4QQD?:display_count=n&:origin=viz_share_link
 
 ### Dashboard 3 — Buyer Opportunity Index
 
@@ -155,11 +163,16 @@ Combines relative affordability and 10-year appreciation to identify cities that
 
 **Interpretation:** A lower Buyer Opportunity Score indicates a stronger result. A high numeric score should not be interpreted as a better buying opportunity.
 
+![Dashboard 3](images/dashboard3_BuyerOpportunity.png)
+
+https://public.tableau.com/shared/FCBT9BYG9?:display_count=n&:origin=viz_share_link
+
 ### Dashboard 4 — Executive Market Performance
 
 Compares the 13 counties across average home values, appreciation, and Buyer Opportunity Index performance.
 
 The dashboard combines these measures into a County Performance Score to provide a high-level comparison of overall county performance.
+![Dashboard 4](images/dashboard4_ExecutiveMarketSummary.png)
 
 **Key findings:**
 
@@ -288,257 +301,3 @@ The analysis provides a structured view of the DFW housing market by examining c
 The project also demonstrates how data can be transformed into practical market insights while documenting methodology, eligibility requirements, and limitations.
 
 **The central takeaway:** Understanding a housing market requires more than looking at current prices. Combining affordability, historical appreciation, and geographic context provides a more useful foundation for further research and decision-making.
-
-
-# DFW Housing Market Analysis
-
-**End-to-End Business Intelligence Portfolio Project**
-
-## Project Overview
-This project analyzes the Dallas–Fort Worth (DFW) housing market using Zillow Home Value Index (ZHVI) data to identify current market conditions, long-term appreciation trends, and cities offering the strongest buying opportunities.
-
-The analysis combines SQL, BigQuery, Tableau, and Excel to transform raw housing data into interactive dashboards that help buyers, investors, and real estate professionals make data-driven decisions.
-
-The project follows a complete data analytics workflow:
-
-- Data Collection
-- Data Cleaning
-- SQL Analysis
-- Business Intelligence Dashboard Development
-- Data Visualization
-- Business Recommendations
-
-
-## Business Problem
-
-Homebuyers and investors often struggle to determine:
-
-- Which cities have appreciated the most over the last decade?
-- Which markets remain affordable?
-- Which cities offer the strongest balance between affordability and future appreciation?
-- Which counties have experienced the strongest housing growth?
-- Where should buyers focus today?
-
-This project answers these questions through interactive Tableau dashboards.
-
-
-## Project Objectives
-
-The objectives of this project were to:
-
-- Analyze current home values across the DFW Metroplex.
-- Measure 10-year home value appreciation.
-- Compare appreciation across counties and cities.
-- Develop a Buyer Opportunity Index combining affordability and appreciation.
-- Build interactive dashboards that allow users to explore the market visually.
-- Deliver actionable business insights for buyers, investors, and real estate professionals.
-
-
-## Tools & Technologies
-
-| Tool                               | Purpose                                                         |
-| ---------------------------------- | --------------------------------------------------------------- |
-| **Google BigQuery (SQL)**          | Data cleaning, transformation, and analysis                     |
-| **Tableau**                        | Interactive dashboards and business intelligence visualizations |
-| **Microsoft Excel**                | Initial data exploration and validation                         |
-| **GitHub**                         | Version control and portfolio hosting                           |
-| **Zillow Home Value Index (ZHVI)** | Housing market dataset                                          |
-
-
-## Datasets
-
-The project uses five analytical datasets generated through SQL queries in Google BigQuery. Each dataset supports a specific stage of the analysis and serves as the foundation for the Tableau dashboards.
-
-| Dataset                         | Description                                                                                                                                                                                                                                                                               |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **latest_home_values.csv**      | Current Zillow Home Value Index (ZHVI) estimates for each Dallas–Fort Worth city, including county information. Used to analyze current market conditions, calculate KPIs, and identify the highest- and lowest-priced housing markets.                                                   |
-| **city_appreciation.csv**       | Ten-year home value appreciation by city (May 2016–May 2026). Used to evaluate historical growth, identify top-performing markets, and compare appreciation trends across the region.                                                                                                     |
-| **county_appreciation.csv**     | Average home value appreciation aggregated at the county level. Used to compare long-term market performance between counties and support county-level visualizations.                                                                                                                    |
-| **buyer_opportunity_index.csv** | Composite dataset combining current home values, appreciation percentages, affordability rankings, and buyer opportunity scores to identify cities offering the strongest balance of value and growth potential.                                                                          |
-| **county_performance.csv**      | Executive-level county performance dataset that combines average home values, appreciation, buyer opportunity scores, ranking metrics, and an overall County Performance Score. Created specifically to support the Executive Market Performance Dashboard and executive decision-making. |
-
-
-
-**Source**
-Zillow Home Value Index (ZHVI)
-
-The dataset contains housing information for approximately 180 cities across the Dallas–Fort Worth Metroplex, including:
-
-- City
-- County
-- Current Home Value
-- Starting Home Value
-- 10-Year Appreciation Percentage
-- Buyer Opportunity Score
-- Affordability Rank
-- Appreciation Rank
-
-
-## Dashboard Overview
-
-
-## Dashboard Screenshots
-
-
-### Dashboard 1 — Current Market Snapshot
-![Dashboard 1](images/dashboard1_CurrentMarket.png)
-
-Provides a high-level overview of the current DFW housing market, including:
-
-https://public.tableau.com/views/Dashboard1_CurrentMarket/CurrentMarketSnapshot?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-
-- Average Home Value
-- Highest Home Value
-- Lowest Home Value
-- Cities Above Average
-- Average Home Value by County
-- Current Home Values by City
-- Home Value Bubble Map
-
----
-
-### Dashboard 2 — Home Value Appreciation
-![Dashboard 2](images/dashboard2_Appreciation.png)
-
-Analyzes historical appreciation over the past decade.
-
-https://public.tableau.com/shared/QZC4F4QQD?:display_count=n&:origin=viz_share_link
-
-Features include:
-
-- Average Appreciation
-- Highest Appreciation
-- Lowest Appreciation
-- Cities Above Average
-- Top Appreciating Cities
-- Lowest Appreciating Cities
-- County Appreciation
-- Appreciation Bubble Map
-
----
-
-### Dashboard 3 — Buyer Opportunity Index
-![Dashboard 3](images/dashboard3_BuyerOpportunity.png)
-
-Identifies cities that offer the strongest combination of affordability and appreciation.
-
-https://public.tableau.com/shared/FCBT9BYG9?:display_count=n&:origin=viz_share_link
-
-Features include:
-
-- Highest Opportunity Score
-- Average Opportunity Score
-- Lowest Opportunity Score
-- Cities Above Average
-- Opportunity Score by City
-- Top Buyer Opportunities
-- Lowest Opportunity Cities
-- Opportunity Bubble Map
-
----
-
-### Dashboard 4 — Executive Market Performance
-![Dashboard 4](images/dashboard4_ExecutiveMarketSummary.png)
-
-An executive-level county comparison combining average home values, 10-year appreciation, buyer opportunity scores, and an overall County Performance Score. Collin County ranks first overall under the composite scoring model, while the leading county differs across the individual metrics.
-
-Key findings:
-
-- Overall leader: Collin County, with a County Performance Score of 4.3.
-- Highest average home value: Tarrant County, approximately $546,000.
-- Highest 10-year appreciation: Dallas County, approximately 219%.
-- Highest Buyer Opportunity Score: Rockwall County, with a score of 271.0.
-
-Tools: Tableau Public, Google BigQuery, SQL.
-
-https://public.tableau.com/views/ExecutiveMarketPerformance/ExecutiveMarketPerformance?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
-
-Features include:
-
-- County Performance Score
-- Executive KPIs
-- County rankings
-- County performance map
-- Executive insights
-
-Note: The County Performance Score is a composite ranking measure based on three component ranks. A lower score indicates stronger performance under this model. The Buyer Opportunity Score is a model-based comparison, not a guarantee of investment returns.
-
----
-
-## Key Business Insights
-
-### Current Market
-
-- The average home value across the Dallas–Fort Worth Metroplex is approximately **$321K**.
-- Tarrant County currently has the highest average home values among the counties analyzed.
-- More than half of DFW cities have home values above the regional average.
-
-### Historical Appreciation
-
-- Home values appreciated an average of **168.55%** over the past ten years.
-- Wilmer experienced the highest appreciation at **350.54%**.
-- Eighty-nine cities outperformed the regional average appreciation rate.
-
-### Buyer Opportunity Index
-
-- Annetta North achieved the highest Buyer Opportunity Score.
-- Ninety-nine cities scored above the regional average opportunity score.
-- Top-ranked cities balance affordability with strong historical appreciation, making them attractive to long-term buyers and investors.
-
-
-## Business Recommendations
-
-Based on this analysis, several recommendations emerge:
-
-- Prioritize buyer outreach in cities with the highest Buyer Opportunity Scores.
-- Monitor rapidly appreciating markets for long-term investment potential.
-- Use county-level trends to guide regional marketing strategies.
-- Balance affordability and appreciation when advising first-time homebuyers.
-- Continue updating the dashboards with new Zillow data to monitor changing market conditions.
-
-
-## Project Structure
-
-DFW-Housing-Market-Analysis
-│
-├── Data
-│
-├── SQL
-│
-├── Tableau
-│
-├── Images
-│
-├── Documentation
-│
-└── README.md
-
-
-## Future Improvements
-
-Potential enhancements include:
-
-- Integrating live Zillow API data (if available).
-- Adding mortgage rate analysis.
-- Incorporating school district ratings.
-- Including property tax comparisons.
-- Developing predictive home value forecasting models.
-- Building a Power BI version for cross-platform comparison.
-
-
-## Project Summary
-
-This project demonstrates practical experience with:
-
-- SQL
-- Google BigQuery
-- Tableau
-- Excel
-- Data Cleaning
-- Data Visualization
-- KPI Design
-- LOD Expressions
-- Interactive Dashboards
-- Business Intelligence
-- Geospatial Analysis
-- Analytical Storytelling

@@ -129,10 +129,7 @@ Provides a snapshot of current home values across the DFW Metroplex.
 
 The dashboard supports comparisons between cities and helps identify areas with relatively low or high estimated home values.
 
-<img width="1751" height="892" alt="image" src="https://github.com/user-attachments/assets/16e71140-9e99-435c-869f-102aa9d8c610" />
-
-https://public.tableau.com/views/Dashboard1_CurrentMarket/CurrentMarketSnapshot?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-
+<div class='tableauPlaceholder' id='viz1795747783459' style='position: relative'><noscript><a href='#'><img alt='Current Market Snapshot ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentMarketSnapshot&#47;CurrentMarketSnapshot&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CurrentMarketSnapshot&#47;CurrentMarketSnapshot' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentMarketSnapshot&#47;CurrentMarketSnapshot&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
 ### Dashboard 2 — Home Value Appreciation
 
 Examines 10-year home value appreciation from May 31, 2016, through May 31, 2026.
@@ -146,9 +143,7 @@ The dashboard highlights city-level appreciation, county-level comparisons, and 
 * **Lavon** had the lowest appreciation at **41.93%**.
 * **81 cities** had appreciation above the overall city average.
 
-<img width="1757" height="887" alt="image" src="https://github.com/user-attachments/assets/babbfbb6-bf0e-4a15-945d-f50b7f9c3dc9" />
-
-https://public.tableau.com/shared/QZC4F4QQD?:display_count=n&:origin=viz_share_link
+<div class='tableauPlaceholder' id='viz1795747750135' style='position: relative'><noscript><a href='#'><img alt='DFW Home Value Appreciation ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DF&#47;DFWHomeValueAppreciation&#47;DFWHomeValueAppreciation&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DFWHomeValueAppreciation&#47;DFWHomeValueAppreciation' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DF&#47;DFWHomeValueAppreciation&#47;DFWHomeValueAppreciation&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
 
 ### Dashboard 3 — Buyer Opportunity Index
 
@@ -163,9 +158,7 @@ Combines relative affordability and 10-year appreciation to identify cities that
 
 **Interpretation:** A lower Buyer Opportunity Score indicates a stronger result. A high numeric score should not be interpreted as a better buying opportunity.
 
-<img width="1752" height="892" alt="image" src="https://github.com/user-attachments/assets/91eb6439-9245-477c-a14b-fa0c7f7c37c5" />
-
-https://public.tableau.com/shared/FCBT9BYG9?:display_count=n&:origin=viz_share_link
+<div class='tableauPlaceholder' id='viz1795747706778' style='position: relative'><noscript><a href='#'><img alt='Buyer Opportunity Index ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bu&#47;BuyerOpportunityIndex&#47;BuyerOpportunityIndex&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BuyerOpportunityIndex&#47;BuyerOpportunityIndex' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bu&#47;BuyerOpportunityIndex&#47;BuyerOpportunityIndex&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
 
 ### Dashboard 4 — Executive Market Performance
 
@@ -173,10 +166,8 @@ Compares the 13 counties across average home values, appreciation, and Buyer Opp
 
 The dashboard combines these measures into a County Performance Score to provide a high-level comparison of overall county performance.
 
-<img width="1757" height="891" alt="image" src="https://github.com/user-attachments/assets/7ed0522b-857a-416a-91fc-8fb813bafcaf" />
-
 <div class='tableauPlaceholder' id='viz1795747433556' style='position: relative'><noscript><a href='#'><img alt='Executive Market Performance ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExecutiveMarketPerformance&#47;ExecutiveMarketPerformance&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ExecutiveMarketPerformance&#47;ExecutiveMarketPerformance' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExecutiveMarketPerformance&#47;ExecutiveMarketPerformance&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
-
+<br>
 **Key findings:**
 
 * **Tarrant County** ranked first overall, with a County Performance Score of **4.33**.

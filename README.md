@@ -69,11 +69,10 @@ The 10-year appreciation and Buyer Opportunity Index analyses include **167 citi
 Nine cities were excluded from the appreciation-based analyses because they did not have a qualifying May 31, 2016 observation. They were not assigned fabricated or estimated starting values.
 
 ### Additional Geographic Exclusions
-The following cities were excluded from the project’s analysis:
-
-* Fairview
-* Lantana
-* Perrin
+The following cities were explicitly excluded from the project’s analysis:
+- Fairview
+- Lantana
+- Perrin
 
 ### Key Methodology
 
@@ -110,22 +109,17 @@ The index is a comparative screening tool. It does not account for every factor 
 
 **County Performance Score**
 
-The County Performance Score is calculated as the average of three county rankings:
+The County Performance Score combines three county-level rankings into a composite measure of overall market performance:
 
-| Component | Ranking Direction | Best Result |
-|---|---|---|
-| Average Home Value Rank | Descending | Highest average home value |
-| Average Appreciation Rank | Descending | Highest appreciation |
-| Average Buyer Opportunity Rank | Ascending | Lowest average Buyer Opportunity Score |
+1. **Average Home Value Rank:** Counties with higher average home values receive better rankings.
+2. **Average Appreciation Rank:** Counties with higher average appreciation receive better rankings.
+3. **Average Buyer Opportunity Rank:** Counties with lower average Buyer Opportunity Scores receive better rankings.
 
-Formula:
-<br>
-\[
-\text{County Performance Score} =
-\frac{\text{Home Value Rank}+\text{Appreciation Rank}+\text{Buyer Opportunity Rank}}{3}
-\]
+The County Performance Score is calculated by averaging the three component rankings:
 
-A lower composite score represents stronger overall performance.
+County Performance Score = (Home Value Rank + Appreciation Rank + Buyer Opportunity Rank) / 3
+
+A lower composite score indicates stronger overall performance across the three measures.
 
 ---
 

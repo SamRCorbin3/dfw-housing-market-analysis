@@ -1,5 +1,5 @@
 -- ==========================================================
--- Query 3: County Comparison
+-- Query 03: County Comparison
 -- Business Question:
 -- How do average home values compare across DFW counties?
 -- ==========================================================
@@ -14,11 +14,14 @@ WITH latest_data AS (
         observation_date,
 
         ROW_NUMBER() OVER (
-            PARTITION BY city
+            PARTITION BY region_id
             ORDER BY observation_date DESC
         ) AS row_num
 
-FROM `project-d3acdc67-4760-439a-b6d.dfw_housing_analysis.housing_data`
+    FROM `project-d3acdc67-4760-439a-b6d.dfw_housing_analysis.housing_data`
+
+    WHERE observation_date <= DATE '2026-05-31'
+      AND city NOT IN ('Fairview', 'Lantana', 'Perrin')
 )
 
 SELECT

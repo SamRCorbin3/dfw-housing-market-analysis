@@ -131,6 +131,7 @@ The dashboard supports comparisons between cities and helps identify areas with 
 
 <div class='tableauPlaceholder' id='viz1795747783459' style='position: relative'><noscript><a href='#'><img alt='Current Market Snapshot ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentMarketSnapshot&#47;CurrentMarketSnapshot&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CurrentMarketSnapshot&#47;CurrentMarketSnapshot' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CurrentMarketSnapshot&#47;CurrentMarketSnapshot&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>    
 <br>
+
 ### Dashboard 2 — Home Value Appreciation
 
 Examines 10-year home value appreciation from May 31, 2016, through May 31, 2026.
@@ -171,6 +172,7 @@ The dashboard combines these measures into a County Performance Score to provide
 
 <div class='tableauPlaceholder' id='viz1795747433556' style='position: relative'><noscript><a href='#'><img alt='Executive Market Performance ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExecutiveMarketPerformance&#47;ExecutiveMarketPerformance&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ExecutiveMarketPerformance&#47;ExecutiveMarketPerformance' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExecutiveMarketPerformance&#47;ExecutiveMarketPerformance&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
 <br>
+
 **Key findings:**
 
 * **Tarrant County** ranked first overall, with a County Performance Score of **4.33**.

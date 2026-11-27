@@ -129,7 +129,7 @@ Provides a snapshot of current home values across the DFW Metroplex.
 
 The dashboard supports comparisons between cities and helps identify areas with relatively low or high estimated home values.
 
-![Dashboard 1](images/dashboard1_CurrentMarket.png)
+<img width="1751" height="892" alt="image" src="https://github.com/user-attachments/assets/16e71140-9e99-435c-869f-102aa9d8c610" />
 
 https://public.tableau.com/views/Dashboard1_CurrentMarket/CurrentMarketSnapshot?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
@@ -146,7 +146,7 @@ The dashboard highlights city-level appreciation, county-level comparisons, and 
 * **Lavon** had the lowest appreciation at **41.93%**.
 * **81 cities** had appreciation above the overall city average.
 
-![Dashboard 2](images/dashboard2_Appreciation.png)
+<img width="1757" height="887" alt="image" src="https://github.com/user-attachments/assets/babbfbb6-bf0e-4a15-945d-f50b7f9c3dc9" />
 
 https://public.tableau.com/shared/QZC4F4QQD?:display_count=n&:origin=viz_share_link
 
@@ -163,7 +163,7 @@ Combines relative affordability and 10-year appreciation to identify cities that
 
 **Interpretation:** A lower Buyer Opportunity Score indicates a stronger result. A high numeric score should not be interpreted as a better buying opportunity.
 
-![Dashboard 3](images/dashboard3_BuyerOpportunity.png)
+<img width="1752" height="892" alt="image" src="https://github.com/user-attachments/assets/91eb6439-9245-477c-a14b-fa0c7f7c37c5" />
 
 https://public.tableau.com/shared/FCBT9BYG9?:display_count=n&:origin=viz_share_link
 
@@ -172,7 +172,9 @@ https://public.tableau.com/shared/FCBT9BYG9?:display_count=n&:origin=viz_share_l
 Compares the 13 counties across average home values, appreciation, and Buyer Opportunity Index performance.
 
 The dashboard combines these measures into a County Performance Score to provide a high-level comparison of overall county performance.
-![Dashboard 4](images/dashboard4_ExecutiveMarketSummary.png)
+
+<img width="1757" height="891" alt="image" src="https://github.com/user-attachments/assets/7ed0522b-857a-416a-91fc-8fb813bafcaf" />
+<div class='tableauPlaceholder' id='viz1795747433556' style='position: relative'><noscript><a href='#'><img alt='Executive Market Performance ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExecutiveMarketPerformance&#47;ExecutiveMarketPerformance&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ExecutiveMarketPerformance&#47;ExecutiveMarketPerformance' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExecutiveMarketPerformance&#47;ExecutiveMarketPerformance&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1795747433556');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1400px';vizElement.style.height='727px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1400px';vizElement.style.height='727px';} else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 **Key findings:**
 

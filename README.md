@@ -24,11 +24,6 @@ The project was designed to answer the following questions:
 
 ## Tools and Technologies
 
-![SQL](https://img.shields.io/badge/SQL-Google%20BigQuery-blue)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
-![Excel](https://img.shields.io/badge/Excel-Analysis-green)
-![Status](https://img.shields.io/badge/Status-Complete-success)
-
 | Tool            | Purpose                                                            |
 | --------------- | ------------------------------------------------------------------ |
 | Google BigQuery | Data storage, SQL analysis, and query development                  |
